@@ -6,7 +6,7 @@
 
 body {
   background-image: url(./assets/bg-desktop.jpg);
-  background-size: cover;
+  background-size: cover, no-repeat;
   background: var(--bg-url);
 }
 
@@ -39,16 +39,13 @@ body * {
   color: var(--text-color);
 }
 
+/* A margin funciona como um relogio, vai rodando para a esquerda, (1, 2, 3, 4) */
 #IDE1 {
-  margin: auto;
-  display: block;
-  text-align: center;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
-  width: 360px;
   padding: 0 24px;
 }
-
-/* A margin funciona como um relogio, vai rodando para a esquerda, (1, 2, 3, 4) */
 
 #profile img {
   width: 112px;
